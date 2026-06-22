@@ -1,0 +1,8 @@
+{
+  "a2a": {
+    "agentCard": {
+      "schemaVersion": "0.3",
+      "inlineContent": "{\"protocolVersion\":\"0.3\",\"name\":\"acme-compliance-agent\",\"description\":\"A2A agent metadata for compliance validation and audit checks\",\"version\":\"1.0.0\",\"url\":\"https://example.invalid/acme-compliance-agent/a2a\",\"capabilities\":{\"streaming\":true},\"skills\":[{\"id\":\"validate_compliance\",\"name\":\"Compliance Validation\",\"description\":\"Validate resources against compliance policies\",\"tags\":[\"compliance\",\"audit\"]}],\"defaultInputModes\":[\"text/plain\"],\"defaultOutputModes\":[\"text/plain\"]}"
+    }
+  }
+}

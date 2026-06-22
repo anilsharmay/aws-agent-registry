@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%23232f3e'/%3E%3Cpath d='M8 22h16M10 18l3-8 3 8 3-8 3 8' fill='none' stroke='%23ff9900' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    <meta name="description" content="Conference session resources for Anil Yanamandra's first look at AWS Agent Registry, presented at AWS User Group Midwest Community Day.">
+    <meta property="og:title" content="Agentic Sprawl to Enterprise Spool">
+    <meta property="og:description" content="AWS Agent Registry session resources from AWS User Group Midwest Community Day.">
+    <title>Agentic Sprawl to Enterprise Spool | Anil Yanamandra</title>
+    <link rel="stylesheet" href="styles.css?v=4">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <p class="eyebrow">PRESENTED AT AWS USER GROUP MIDWEST COMMUNITY DAY</p>
+        <h1>Agentic Sprawl to Enterprise Spool</h1>
+        <p class="subtitle">A first look at AWS Agent Registry</p>
+        <div class="speaker-lockup">
+          <strong>Anil Yanamandra</strong>
+          <span>Principal Engineer - Applied AI &middot; AWS Community Builder</span>
+        </div>
+        <nav class="hero-actions" aria-label="Primary session resources">
+          <a class="primary-action" href="assets/aws-agent-registry-first-look.pdf">View session PDF</a>
+          <a href="https://github.com/anilsharmay/aws-agent-registry/blob/main/demo/aws-agent-registry-cli-demo.ipynb">Run the notebook</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="band intro-band" aria-labelledby="session-title">
+        <div class="content two-column intro-grid">
+          <div>
+            <p class="section-label">CONFERENCE SESSION</p>
+            <h2 id="session-title">Scaling agents starts with governed discovery</h2>
+          </div>
+          <div class="session-copy">
+            <p>As enterprises move from experiments to implementation, unmanaged agents, tools, skills, and MCP servers create a new operating problem: teams cannot reliably discover, govern, or reuse what already exists.</p>
+            <p>This first-look session examines how AWS Agent Registry organizes resource metadata, separates publisher and curator responsibilities, controls discoverability through approval, and brings governed search into the engineering workflow.</p>
+          </div>
+        </div>
+        <div class="content credential-line" aria-label="Speaker credentials">
+          <div><strong>18+ years</strong><span>Building global consumer applications</span></div>
+          <div><strong>Applied AI</strong><span>Transforming enterprise systems with GenAI</span></div>
+          <div><strong>AWS Community Builder</strong><span>Research translated into production engineering</span></div>
+        </div>
+      </section>
+
+      <section class="band scope-band" aria-labelledby="scope-title">
+        <div class="content">
+          <p class="section-label">SESSION SCOPE</p>
+          <h2 id="scope-title">What the session covers</h2>
+          <ol class="scope-list">
+            <li><strong>Agentic sprawl</strong><span>Why resource visibility, control, and reuse become enterprise architecture concerns.</span></li>
+            <li><strong>Registry model</strong><span>Registries, records, descriptors, versions, publishers, curators, and consumers.</span></li>
+            <li><strong>Governance lifecycle</strong><span>Draft, submission, approval, rejection, deprecation, and approved-only discovery.</span></li>
+            <li><strong>Hybrid discovery</strong><span>Keyword and semantic-style search inside an explicit governance boundary.</span></li>
+            <li><strong>MCP integration</strong><span>Using the Registry MCP endpoint from compatible developer environments.</span></li>
+            <li><strong>Engineering demo</strong><span>Register, submit, approve, and discover an MCP server record with AWS CLI commands.</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="band" aria-labelledby="demo-title">
+        <div class="content two-column">
+          <div>
+            <p class="section-label">ENGINEERING DEMO</p>
+            <h2 id="demo-title">Control plane in. Governed discovery out.</h2>
+            <p>The executable notebook runs real AWS CLI commands from VS Code or Jupyter. It creates a registry, models three personas, verifies authorization boundaries, approves records, retries eventually consistent search, and removes every temporary resource.</p>
+          </div>
+          <div class="command-flow" aria-label="Registry governance workflow">
+            <div><span>1</span><code>create-registry</code><small>READY</small></div>
+            <div><span>2</span><code>create-registry-record</code><small>DRAFT</small></div>
+            <div><span>3</span><code>submit + approve</code><small>APPROVED</small></div>
+            <div><span>4</span><code>search-registry-records</code><small>DISCOVERABLE</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band dark-band" aria-labelledby="artifacts-title">
+        <div class="content">
+          <p class="section-label">SESSION RESOURCES</p>
+          <h2 id="artifacts-title">Take the material with you</h2>
+          <div class="artifact-list">
+            <a href="assets/aws-agent-registry-first-look.pdf">
+              <strong>Session PDF</strong>
+              <span>The conference presentation, including the editable-source content rendered for sharing.</span>
+            </a>
+            <a href="https://github.com/anilsharmay/aws-agent-registry/blob/main/demo/aws-agent-registry-cli-demo.ipynb">
+              <strong>Executable notebook</strong>
+              <span>Complete registry, persona, governance, discovery, and cleanup workflow.</span>
+            </a>
+            <a href="https://github.com/anilsharmay/aws-agent-registry/tree/main/demo">
+              <strong>Record descriptors</strong>
+              <span>MCP, A2A, and custom metadata examples used by the engineering lab.</span>
+            </a>
+            <a href="https://github.com/anilsharmay/aws-agent-registry/blob/main/demo/cloudshell-demo.sh">
+              <strong>Lifecycle CLI helper</strong>
+              <span>Focused create, submit, approve, search, and optional cleanup workflow.</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band speaker-band" aria-labelledby="speaker-title">
+        <div class="content two-column">
+          <div>
+            <p class="section-label">ABOUT THE SPEAKER</p>
+            <h2 id="speaker-title">Anil Yanamandra</h2>
+            <p class="speaker-role">Principal Engineer - Applied AI<br>AWS Community Builder</p>
+          </div>
+          <div class="speaker-bio">
+            <p>Anil is a Principal Engineer focused on Applied AI with more than 18 years of experience building global, consumer-facing applications. He applies generative AI to transform legacy enterprise systems and bridges emerging research with production-ready AI engineering.</p>
+            <a href="https://github.com/anilsharmay">GitHub profile</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="band sources-band" aria-labelledby="sources-title">
+        <div class="content sources">
+          <p class="section-label">OFFICIAL AWS SOURCES</p>
+          <h2 id="sources-title">Documentation and samples</h2>
+          <a href="https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry.html">AWS Agent Registry developer guide</a>
+          <a href="https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry-concepts.html">Concepts, resource types, and personas</a>
+          <a href="https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry-record-lifecycle.html">Record lifecycle and visibility rules</a>
+          <a href="https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/registry-search-records.html">Hybrid search and eventual consistency</a>
+          <a href="https://github.com/awslabs/agentcore-samples/tree/main/06-workshops/10-Agent-Registry">Official AgentCore Registry samples</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="content">Presented at AWS User Group Midwest Community Day &middot; AWS Agent Registry is a preview service.</div>
+    </footer>
+    <script src="app.js?v=4"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "custom": {
+    "inlineContent": "{\"name\":\"acme-data-pipeline-orchestrator\",\"description\":\"Custom metadata for orchestrating governed data pipelines\",\"version\":\"3.0.0\",\"endpoint\":\"https://example.invalid/acme-data-pipelines/v3\",\"owner\":\"data-platform\",\"riskLevel\":\"medium\"}"
+  }
+}

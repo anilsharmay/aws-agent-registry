@@ -1,0 +1,10 @@
+{
+  "mcp": {
+    "server": {
+      "inlineContent": "{\"name\":\"acme/code-review\",\"description\":\"MCP server metadata for automated code review and security scanning\",\"version\":\"2.1.0\",\"packages\":[{\"registryType\":\"npm\",\"identifier\":\"@acme/code-review-mcp\",\"version\":\"2.1.0\",\"transport\":{\"type\":\"stdio\"}}]}"
+    },
+    "tools": {
+      "inlineContent": "{\"tools\":[{\"name\":\"review_code\",\"description\":\"Analyze source code for security issues\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"code\":{\"type\":\"string\"}},\"required\":[\"code\"]}}]}"
+    }
+  }
+}

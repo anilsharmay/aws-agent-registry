@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb_checkpoints/
+.agent-registry-work/
+*.transcript.txt
+*.log
+outputs/*.pptx
