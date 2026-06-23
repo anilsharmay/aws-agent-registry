@@ -77,18 +77,6 @@ Access-key secrets are held only in notebook memory and are never displayed.
 If execution stops before the cleanup cell, resolve the error and run the
 cleanup cell manually before closing the kernel.
 
-## Publish a revised session PDF
-
-The PDF is intentionally updated manually after edits in Google Slides. Export
-the final deck using the exact filename `aws-agent-registry-first-look.pdf`,
-then replace the file in `docs/assets/`.
-
-- Public URL: https://anilsharmay.github.io/aws-agent-registry/assets/aws-agent-registry-first-look.pdf
-- Upload location: https://github.com/anilsharmay/aws-agent-registry/upload/main/docs/assets
-
-The local PPTX is a private build intermediate and is not committed or linked
-from the public repository.
-
 ## Lifecycle-only CLI helper
 
 `demo/cloudshell-demo.sh` performs the narrower record lifecycle against an
