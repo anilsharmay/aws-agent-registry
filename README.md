@@ -1,7 +1,7 @@
 # Agentic Sprawl to Enterprise Spool
 
-Conference session resources presented by **Anil Yanamandra**, Principal
-Engineer - Applied AI and AWS Community Builder, at **AWS User Group Midwest
+Conference session resources presented by **Anil Yanamandra**, FDE - Applied AI
+@PwC and AWS Community Builder, at **AWS User Group Midwest
 Community Day**.
 
 The session provides a first look at AWS Agent Registry and demonstrates how to
@@ -25,7 +25,7 @@ agents, or custom resources represented by its records.
 
 ## About the speaker
 
-Anil Yanamandra is a Principal Engineer focused on Applied AI and an AWS
+Anil Yanamandra is a Forward Deployed Engineer in Applied AI and an AWS
 Community Builder with more than 18 years of experience building global,
 consumer-facing applications. He applies generative AI to transform legacy
 enterprise systems and bridges emerging research with production-ready AI
